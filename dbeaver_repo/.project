@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>dbeaver_repo</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Scripts/Oracle_19/sqls</name>
+			<type>2</type>
+			<location>//C:/Users/hanum/Desktop/VsCode/git_area/sqls/</location>
+		</link>
+		<link>
+			<name>Scripts/SQL_Server/sql_server</name>
+			<type>2</type>
+			<location>//C:/Users/hanum/Desktop/VsCode/git_area/sql_server/</location>
+		</link>
+		<link>
+			<name>Scripts/SnowFlake/snowflake</name>
+			<type>2</type>
+			<location>//C:/Users/hanum/Desktop/VsCode/git_area/snowflake/</location>
+		</link>
+	</linkedResources>
+</projectDescription>

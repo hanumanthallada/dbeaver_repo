@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"microsoft-192f2b80df2-69a0a667ce1c0225": {
+			"provider": "sqlserver",
+			"driver": "microsoft",
+			"name": "SQLEXPRESS",
+			"save-password": true,
+			"configuration": {
+				"host": "Devs\\SQLEXPRESS",
+				"port": "1433",
+				"url": "jdbc:sqlserver://;serverName\u003dDevs\\SQLEXPRESS;",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "true",
+					"sslTrustServerCertificate": "true"
+				},
+				"auth-model": "sqlserver_windows"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
